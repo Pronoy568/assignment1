@@ -1,0 +1,282 @@
+/*Part-1 start here*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.half {
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 2%;
+    float: left;
+}
+
+.half img {
+    width: 100%;
+}
+
+p {
+    color: grey;
+}
+
+.simple {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+}
+
+.orange {
+    font-size: 52px;
+    color: orangered;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Button {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 900;
+    background-image: linear-gradient(180deg, orange, tomato);
+    border-radius: 5px;
+    color: white;
+}
+
+section {
+    padding-bottom: 50px;
+    height: 580px;
+}
+
+
+/*Part-1 End here*/
+
+
+/*Part-2 Start here*/
+
+.AB {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Part-2 End here*/
+
+
+/*Part-3 Start here*/
+
+.project {
+    text-align: center;
+    margin-top: 50px;
+    height: 700px;
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+}
+
+#h2 {
+    font-size: 52px;
+}
+
+.project .box {
+    width: 32%;
+    display: inline-block;
+}
+
+.box h2 {
+    color: rgb(77, 46, 216);
+}
+
+.box img {
+    width: 100%;
+}
+
+.box {
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+/*Part-3 End here*/
+
+
+/*Part-4 Start here*/
+
+.img {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
+}
+
+.work h1 {
+    color: white;
+    font-size: 35px;
+    margin-left: 400px;
+    margin-top: -100px;
+}
+
+.work a {
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+
+/*Part-4 End here*/
+
+
+/* contact area design here */
+
+.contact {
+    background: #3c5499;
+    padding: 50px 0;
+}
+
+.contact .middle>h2 {
+    font-size: 40px;
+    color: #dad61e;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.contact hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #273a71;
+    width: 7%;
+}
+
+.contact .middle p {
+    font-size: 19px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-box {
+    width: 80%;
+    margin: auto;
+}
+
+.username:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.username {
+    margin-top: 50px;
+}
+
+.username input {
+    font-size: 20px;
+    background: #273A72;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.username .name {
+    width: 49%;
+    float: left;
+    position: relative;
+}
+
+.username .email {
+    width: 49%;
+    float: right;
+    position: relative;
+}
+
+.name label {
+    color: #fff;
+    position: absolute;
+    top: 11px;
+    left: 17px;
+}
+
+.name label span {
+    color: red;
+}
+
+.email label {
+    color: #fff;
+    position: absolute;
+    top: 11px;
+    left: 17px;
+}
+
+.email label span {
+    color: red;
+}
+
+.contact-box textarea {
+    width: 100%;
+    font-size: 20px;
+    background: #273A72;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.cal {
+    text-align: center;
+}
+
+.cal input {
+    background: #30bae7;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 0px #299ec5;
+}
+
+.cal input:hover {
+    background: #299ec5;
+}
+
+.footer-menu {
+    background: #344B8E;
+    padding: 40px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.footer-menu ul li a:hover,
+.footer-menu .xx {
+    color: #30bae7;
+}
