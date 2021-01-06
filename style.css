@@ -104,25 +104,38 @@ section {
 
 /*Part-4 Start here*/
 
-.img {
-    padding-top: 50px;
+.blue {
+    background-image: url("personal-website-main/shapes/Group_33094_1.png");
+    background-size: 100% 100%;
+    width: 60%;
+    height: 90px;
     display: block;
     margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
     margin-right: auto;
-    height: 60%;
-    width: 60%;
+    padding: 50px;
+}
+
+.work {
+    width: 50%;
+    float: left;
+}
+
+.Button1 {
+    position: absolute;
+    left: 700px;
+    top: 1919px;
 }
 
 .work h1 {
     color: white;
-    font-size: 35px;
-    margin-left: 400px;
-    margin-top: -100px;
+    margin-top: 30px;
+    font-size: 32px;
 }
 
 .work a {
-    display: inline-block;
-    margin-left: 1000px;
+    margin: 300px;
 }
 
 
